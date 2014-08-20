@@ -1,0 +1,57 @@
+#Creates a hero for the game world
+#v.1
+#filename: Hero.py
+
+from DiceEngine import diceEngine
+dice = diceEngine()
+class hero(object):
+#character hitpoint functions
+	
+	hp = 0
+	equipment = {}
+	weapon = {}
+	armor = {}
+	attributes = {"Strength" : 3, "Agility" : 0, "Vitality" : 0, "Intellect" : 0, "Will" : 0, "Charisma" : 0,
+	"hp": 0, "defense": 0, "dmgRedux": 0, "attack": 0, "reflex": 0, "fortitude": 0, "will": 0
+	}
+	
+	def __init__(self):
+		hp = self.setHP(10)
+		
+	def loseHP(self, damage):
+		self.hp = self.hp - damage
+		return self.hp
+		
+	def gainHP(self, heal):
+		self.hp = self.hp + heal
+		return self.hp
+		
+	def setHP(self, health):
+		self.hp = health
+		return self.hp
+		
+	def attack(self, roll, enemy):
+	 #use a while loop for combat
+	 
+		print "your attack roll is %d" % roll
+		if roll > 9:
+			roll = dice.dEight() + self.attributes['Strength']
+			print "You smite your foe doing %d damage!" % roll
+			enemy.loseHP(roll)
+			print "the skeleton has %d hit points left" % enemy.hp
+			if enemy.hp <=0:
+				print "You strike down the skeleton with your mighty hammer!"
+				print "You are tired and go to the meadow to rest"
+				return 'meadow'
+			else:
+				print "else on successful attack"
+		else:
+			print "sorry you missed"
+			print "The skelton evades your blow and laughs breathlessly at you"
+			#print toon.hp
+			#toon.loseHP(2)
+			#print toon.hp
+			return 'cave_entrance'
+		
+		print "your return function failed"
+		return 'meadow'
