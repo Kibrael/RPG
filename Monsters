@@ -1,0 +1,24 @@
+#Contains the classes to make different monsters. Rawr
+#v.1
+#filename: Monsters.py
+
+class monster(object):
+	attributes = {"Strength" : 0, "Agility" : 0, "Vitality" : 0, "Intellect" : 0, "Will" : 0, "Charisma" : 0,
+	"hp": 0, "defense": 0, "dmgRedux": 0, "attack": 0, "reflex": 0, "fortitude": 0, "will": 0
+	}
+
+class skeleton(monster):
+
+	def __init__(self):
+		self.hp = 10
+		self.Strength = 3
+		self.Agility = 3
+		self.Vitality = 2
+		self.dmgRedux = 2
+		self.reflex = 3
+		
+	def gainHP(self, health):
+		self.hp = self.hp + health
+		
+	def loseHP(self, health):
+		self.hp = self.hp - health
