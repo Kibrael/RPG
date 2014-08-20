@@ -1,0 +1,119 @@
+import random
+from sys import exit
+from DiceEngine import diceEngine
+from Monsters import monster
+from Monsters import skeleton
+from Hero import hero
+
+
+attributes = {1: "low4d8",
+			2: "low3d8",
+			3: "2d8",
+			4: "high3d8",
+			5: "high4d8",
+}
+
+class Scene(object):
+	#this is the base scene that all other scenes pull basic propties from. 
+	#add in stuff to communicate with hero class here
+	def enter(self):
+		print "This scene is not yet configured. Subclass it and implement enter()."
+		exit(1)
+
+
+	
+#The Engine class runs the game with a while loop
+class Engine(object):
+
+    def __init__(self, scene_map):
+        #print "Engine has scene_map", scene_map
+        self.scene_map = scene_map
+
+    def play(self):
+        current_scene = self.scene_map.opening_scene()
+        print "Play's first scene", current_scene
+	
+
+        while True:
+            print "\n--------"
+            next_scene_name = current_scene.enter()
+            print "next scene", next_scene_name
+            current_scene = self.scene_map.next_scene(next_scene_name)
+            print "map returns new scene", current_scene
+
+
+	
+class Death(Scene):
+	
+	def enter(self):
+		print "Well, you died. That sucks for you, but someone else lived"
+		exit(1)
+
+class Meadow(Scene):
+	#first entrance
+
+	def enter(self):
+		"""Needs two cases, one for the first entrance, another for coming back"""
+		entry_string = """\r\rThe meadow is sun dappled and smells of orange blossoms. \nThere is a cave entrance nearby. You can hear a low keening coming from the mouth of the cave"""
+
+	
+		print entry_string
+		action = raw_input("What do you do? ")
+			
+		if action == "enter cave":
+			return 'cave_entrance'
+		elif action == "stop":
+			return 'death'
+		else:
+			return 'meadow'
+		
+class CaveEntrance(Scene):
+	#second scene
+	def enter(self):
+		entry_string = """As you enter the cave, a skeleton confronts you. It brandishes its sword and gnashes its terrible teeth"""
+		print entry_string
+		action = raw_input("Do you attack the skeleton? ")
+		if action == "attack":
+			print "Battle is joined!"
+			while skeleton.hp > 0:
+				choice = raw_input("1> attack  2> run:  ")
+				if choice == "1":
+					return toon.attack(dice.rollDice(4), skeleton)
+				elif choice == "2":
+					return 'meadow'
+				else:
+					print "You quake in fear. Act fool!!"
+		elif action == "run":
+			print "you ran like a bitch"
+			return 'meadow'
+		else:
+			print "else level return"
+			return 'meadow'
+		
+#The map class contains a list of all the scenes in the game
+#Scenes are held in a dictionary that passes them to functions based on return values in other classes
+class Map(object):
+	
+	scenes = {
+		'meadow': Meadow(), 
+		'cave_entrance': CaveEntrance(), 
+		'death': Death()
+	}
+		
+	def __init__(self, start_scene):
+		self.start_scene = start_scene
+		
+	def next_scene(self, scene_name):
+		return Map.scenes.get(scene_name)
+		
+	def opening_scene(self):
+		return self.next_scene(self.start_scene)		
+
+
+skeleton = skeleton()
+toon = hero()
+dice = diceEngine()	
+a_map = Map('meadow')
+a_game = Engine(a_map)
+print toon.attributes['Strength']
+a_game.play()
