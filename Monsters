@@ -2,7 +2,15 @@
 #v.1
 #filename: Monsters.py
 
+#Holds monster classes and creates them 
+#v.1
+#Filename: Monsters.py
+from DiceEngine import diceEngine
+dice = diceEngine()
+
+
 class monster(object):
+	alive = True
 	attributes = {"Strength" : 0, "Agility" : 0, "Vitality" : 0, "Intellect" : 0, "Will" : 0, "Charisma" : 0,
 	"hp": 0, "defense": 0, "dmgRedux": 0, "attack": 0, "reflex": 0, "fortitude": 0, "will": 0
 	}
@@ -11,7 +19,7 @@ class skeleton(monster):
 
 	def __init__(self):
 		self.hp = 10
-		self.Strength = 3
+		self.attributes['Strength'] = 3
 		self.Agility = 3
 		self.Vitality = 2
 		self.dmgRedux = 2
@@ -22,3 +30,16 @@ class skeleton(monster):
 		
 	def loseHP(self, health):
 		self.hp = self.hp - health
+		
+	def attack(self, roll, toon):
+	 #use a while loop for combat
+		
+		print "the skeleton's attack roll is %d" % roll
+		if roll > 12: #this will need to be the enemy defense
+			roll = dice.dEight() 
+			print "The skeleton smites you doing %d damage!" % roll
+			toon.loseHP(roll)
+			#print "you have %d hit points left\n\n\n" % toon.hp
+			
+		else:
+			print "You dodged!\n\n\n"
