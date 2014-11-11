@@ -4,7 +4,7 @@ from sys import exit # to quit the game on death
 from DiceEngine import diceEngine #for random rolls by d8 distribution
 from Monsters import monster #holds the monster classes and their action functions and equipment/attribute dictionaries
 from Monsters import skeleton #specific monster import
-from HeroV1 import hero #hero class and its actions, equipment and attributes
+from Hero import hero #hero class and its actions, equipment and attributes
 
 #from items import items
 
