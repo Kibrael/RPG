@@ -7,7 +7,7 @@
 #Filename: Monsters.py
 #make an inventory generating function
 from DiceEngine import diceEngine
-from HeroV1 import hero
+from Hero import hero
 from items import items
 dice = diceEngine()
 items = items()
