@@ -5,25 +5,44 @@
 #Holds monster classes and creates them 
 #v.1
 #Filename: Monsters.py
+#make an inventory generating function
 from DiceEngine import diceEngine
+from HeroV1 import hero
+from items import items
 dice = diceEngine()
-
+items = items()
 
 class monster(object):
+	toon = hero()
 	alive = True
-	attributes = {"Strength" : 0, "Agility" : 0, "Vitality" : 0, "Intellect" : 0, "Will" : 0, "Charisma" : 0,
-	"hp": 0, "defense": 0, "dmgRedux": 0, "attack": 0, "reflex": 0, "fortitude": 0, "will": 0
+	attributes = {"strength" : 0, "agility" : 0, "vitality" : 0, "intellect" : 0, "wisdom" : 0, "charisma" : 0,
+	"hp": 0, "defense": 0, "dmgRedux": 0, "attack": 0, "reflex": 0, "fortitude": 0, "will": 0, 'name': 'skeleton', 'type': 'undead', 
+	'XP_value': 50,
 	}
-
+	#when searching inventory, type and quantity are important, define the item elsewhere
+	#build the inventory from the item class
+	M1 = {'name':'skeleton teeth'}
+	M2 = {'name': 'broken bits of bone'}
+	
+	misc = {'skeleton teeth': 5, 'broken bits of bone': 3}
+	carried_weapons = {'long sword': 1}
+	armor = {'scale': 1}
+	coins = {'copper': 6, 'silver': 1}
+	carried_armor = {'robes': 1}
+	weapons = {'long sword': 1}
+	
+	inventory = [coins, armor, weapons, misc]
+	
 class skeleton(monster):
 
 	def __init__(self):
-		self.hp = 10
-		self.attributes['Strength'] = 3
-		self.Agility = 3
-		self.Vitality = 2
-		self.dmgRedux = 2
-		self.reflex = 3
+		self.hp = 20
+		self.attributes['strength'] = 3
+		self.attributes['agility'] = 3
+		self.attributes['vitality'] = 2
+		self.attributes['dmgRedux'] = 2
+		self.attributes['reflex'] = 3
+		self.attributes['defense'] = 8
 		
 	def gainHP(self, health):
 		self.hp = self.hp + health
@@ -35,7 +54,8 @@ class skeleton(monster):
 	 #use a while loop for combat
 		
 		print "the skeleton's attack roll is %d" % roll
-		if roll > 12: #this will need to be the enemy defense
+		print toon.attributes['defense']
+		if roll > toon.attributes['defense']: #this will need to be the enemy defense
 			roll = dice.dEight() 
 			print "The skeleton smites you doing %d damage!" % roll
 			toon.loseHP(roll)
