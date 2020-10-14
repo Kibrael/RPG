@@ -9,28 +9,45 @@ class diceEngine(object):
 		"""
 
 		self.att_roll_map = {
-				9:{
+				"Hero":{
 				"dice": 4,
 				"method": "high"
 				},
-				7:{
+				"Gifted":{
 				"dice": 3,
 				"method": "high"
 				},
-				5:{
+				"Normal":{
 				"dice": 2,
 				"method": "high"
 				},
-				3:{
+				"Weak":{
 				"dice": 3,
 				"method": "low"
 				},
-				1:{
+				"Afflicted":{
 				"dice": 4,
 				"method": "low"
 				}
 
 			}
+	def roll_converter(self, total):
+		"""
+		Converts an attribute score total to a dice pool category on a 10 scale
+		"""
+		if total >= 9:
+			category = "Hero"
+		elif total >= 7:
+			category = "Gifted"
+		elif total >= 5:
+			category = "Normal"
+		elif total >= 3:
+			category = "Weak"
+		elif total >= 1:
+			category = "Afflicted"
+
+		return category
+
 		
 	def dice_roll(self, num_dice, die_size=8):
 		"""
@@ -43,6 +60,7 @@ class diceEngine(object):
 			die_rolls.append(random.randrange(1, die_size))
 
 		return die_rolls
+
 		
 	def map_att_to_dice(self, attribute, skill, boon):
 		"""
@@ -52,12 +70,13 @@ class diceEngine(object):
 		pool_total = attribute + boon + skill
 
 		#use pool total to determine total dice and method
-		dice_to_roll = self.att_roll_map[pool_total]["dice"]
-		dice_method = self.att_roll_map[pool_total]["method"]
+		dice_to_roll = self.att_roll_map[self.roll_converter(pool_total)]["dice"]
+		
+		dice_method = self.att_roll_map[self.roll_converter(pool_total)]["method"]
 
 		#roll dice and return a list
 		dice_results = self.dice_roll(num_dice=dice_to_roll)
-		print(dice_results)
+	
 		#sort dice results for return
 		if dice_method == "low":
 			dice_results = sorted(dice_results)
@@ -73,6 +92,10 @@ class diceEngine(object):
 		#maps a passed attribute using self.
 		#att_roll_map to determine which dice pool to use
 
+
+	def create_roll_data(self, records, die_size,):
+		"""
+		"""
 	def rollDice(self, attribute): #number range must be 1 to 5
 		if attribute == 1:
 			lst = []
