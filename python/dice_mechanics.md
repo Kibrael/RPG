@@ -1,3 +1,4 @@
+## [Overview](https://github.com/Kibrael/RPG/blob/master/python/overview.md)
 ### Dice Mechanics
 Dice used in skill and attribut tests are d8s pools.
 
