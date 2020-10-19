@@ -7,18 +7,18 @@ Boon mechanics are intended to give a material edge to characters with high attr
 
 Curse mechanics are intended to give a material disadvantage to characters with low attributes, negative status effects, or using skills with which they are not proficient.
 
-### [Races?]()
-### [Constructing a Character Workflow]()
-### [Attributes]()
-### [Skills]()
-### [Magic]()
-### [Spellcasting]()
-### [Spells]()
-### [Boons and Curses]()
-### [Dice Mechanics]()
-### [Combat]()
-### [Equipment]()
+### [Races?](https://github.com/Kibrael/RPG/blob/master/python/races.md)
+### [Constructing a Character Workflow](https://github.com/Kibrael/RPG/blob/master/python/character_workflow.md)
+### [Attributes](https://github.com/Kibrael/RPG/blob/master/python/attributes.md)
+### [Skills](https://github.com/Kibrael/RPG/blob/master/python/skills.md)
+### [Magic](https://github.com/Kibrael/RPG/blob/master/python/magic.md)
+### [Spellcasting](https://github.com/Kibrael/RPG/blob/master/python/spellcasting.md)
+### [Spells](https://github.com/Kibrael/RPG/blob/master/python/spells.md)
+### [Boons and Curses](https://github.com/Kibrael/RPG/blob/master/python/boons_and_curses.md)
+### [Dice Mechanics](https://github.com/Kibrael/RPG/blob/master/python/dice_mechanics.md)
+### [Combat](https://github.com/Kibrael/RPG/blob/master/python/combat.md)
+### [Equipment](https://github.com/Kibrael/RPG/blob/master/python/equipment.md)
 
 
 ## Setting Specific Material
-### [Monmocht Morchti]()
+### [Monmocht Morchti](https://github.com/Kibrael/RPG/blob/master/python/monmocht_morchti.md)
