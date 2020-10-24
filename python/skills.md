@@ -5,11 +5,11 @@ Boons acquired through skill development are known and can be used if the charac
 
 |Skill Rank|Heuristic|Bonus|
 |----------|---------|-----|
-|0|Untrainted|-1|
+|0|Untrainted|-2|
 |1|Novice||
-|2||-1|
+|2||+1|
 |3|||
-|4||-1|
+|4||+1|
 |5|Adept||
 |6||+1|
 |7|||

@@ -18,4 +18,12 @@ Curse Deck:
 - Mix curses into boon deck when drawing? Require playing of curses before hand refresh? IE cannot refresh hand if curses present?
 
 
-### Boon List
+### Boon Lists
+
+### General Boons
+
+### Attribute Boons
+
+### Skill Boons (include spell boons)
+
+### Monmocht Morcthi Boons
