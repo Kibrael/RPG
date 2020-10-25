@@ -27,6 +27,21 @@ Attributes grant a boon at each point above normal that does not have a dice poo
 Attributes give a curse at each point below normal that does not have a dice pool change.  
 
 **Initial Attributes:**  
+
+Knowledge
+Martial
+	- Mental: mental attack, defense, hitpoints, related skills
+	- Physical: melee, ranged missile, thrown, hand to hand intended to evade, mitigate, subdue, damage, or kill.
+Athletic
+	- Mental:
+	- Physical: stamina, agility, non-combat related tests of physical 
+Social
+	- Mental:
+	- Physical:
+Luck
+	- Mental:
+	- Physical:
+
 - Athletic: coordination, agility, flexibility
 - Social: charisma, oration, interrogation, persuasion
 - Martial: skill in the arts of war, mental and physical.

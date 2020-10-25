@@ -98,6 +98,8 @@ Armor grants reductions to damage type based on the quality of the armor and the
 Armor also grants resistance to status effects based on quality and relationship to type and cause of the status.
 
 ### Weapons Effects and Modifiers
+
+Weapons do additional damage to unarmored opponents.?
   
 **Weapon Damage Types**
 
@@ -143,3 +145,14 @@ Casting spells:
 ### Mental and Physical Fortitue Recovery
 
 ### Attribute Recovery
+
+### Fatigue Tests
+
+### Status Effects
+Not all status effects are negative.
+
+**Status Effect Types**
+**Sub Types**
+**Resisting Status Effects**
+**Recovering from Status Effects**
+**Causing a Status Effect**

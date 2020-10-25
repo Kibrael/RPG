@@ -57,6 +57,11 @@ Boons granted from skill development have effects that relate to that skill. The
 Boons granted from interacting with powers of the setting may be chosen by the player or the game master as the situation dictates. 
 These boons are often limited in their use (number of times, duration of availability, great cost for using the boon, etc).
 
+Loyalties
+contacts
+contracts
+debts
+
 **Acquiring Curses**
 Curses are bestowed for a low attribute score, using an untrained skill, interaction with powerful forces, received as part of a story.
 
