@@ -36,7 +36,7 @@ boon or curse prerequisites then it must be powered with boon or curse cards.
 - alter weapon damage type (strike with hilt)
 - block
 
-
+w
 actions per round/segment
 - physical
 - mental
@@ -126,6 +126,8 @@ The diagrams below show how weapon damage types interact with armor types. The c
 
 [Base Armor Diagram](URL)
 
+### Special Actions in Combat
+
 ### Magic and Spellcasting in Combat
 Based in skill in different magical areas broken out into skills.
 Skill and boon choices are used to create magical specialization.
@@ -137,3 +139,7 @@ Casting spells:
 
 **Magic Statuses**
 **Magic Status Modifiers**
+
+### Mental and Physical Fortitue Recovery
+
+### Attribute Recovery
