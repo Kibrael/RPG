@@ -4,24 +4,24 @@
 ## Example Character
 
 ### Name and Description
-Name:
-Height: 6' 3''
-Weight: 225
-Eyes: Grey
-Hair: Black
-Sex: Male
-Inclination: Stern, confrontational (most likely mood)
-Loyalties: Order of the Mind's Fire 
+Name:  
+Height: 6' 3''  
+Weight: 225  
+Eyes: Grey  
+Hair: Black  
+Sex: Male  
+Inclination: Stern, confrontational (most likely mood)  
+Loyalties: Order of the Mind's Fire   
 
-Contacts: (can create boons)
-Debts: (can create curses)
-Contracts: (can create boons and curses)
-Background: (can award boons or curses? roll table for growing up?)
-Summary: An inquisition warrior hunting the last of the traitor's who destroyed his order.
+Contacts: (can create boons)  
+Debts: (can create curses)  
+Contracts: (can create boons and curses)  
 
-Peeves:
-Point Total:
+Peeves:  
+Point Total:  
 
+Background: (can award boons or curses? roll table for growing up?)  
+Summary: An inquisition warrior hunting the last of the traitor's who destroyed his order.  
 
 ### Primary Attributes
 
