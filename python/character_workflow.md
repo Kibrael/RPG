@@ -45,10 +45,10 @@ Summary: An inquisition warrior hunting the last of the traitor's who destroyed 
 |Name|Attribute|Ranks|Modifiers|
 |----|---------|-----|---------|
 |Ritual|Magic|4||
-|1-Handed Swords|6||
-|Shields|5||
-|Riding|5||
-|Investigation|4|
+|1-Handed Swords|Martial|6||
+|Shields|Martial|5||
+|Riding|Athletics|5||
+|Investigation|Social|4||
 
 ### Boons
 
