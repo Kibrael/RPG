@@ -16,7 +16,7 @@
 ## Example Character
 
 ### Character Description
-Name: Theryar Ygrvais
+Name: Theryar Ygrvais  
 Height: 6' 3''  
 Weight: 225  
 Eyes: Grey  
@@ -47,23 +47,30 @@ Summary: An inquisition warrior hunting the last of the traitor's who destroyed 
 
 ### Secondary Attributes
 |Attribute|Score|Rank|Dice|Formula|
-|---------|----|----|-------|
-|Speed|8|6|2D8|(Athletics + Luck) / 2|
-|Physical Stamina|13|7|3D8+|(Athletics + Martial) / 2|
-|Mental Stamina|7|6|2D8|(Athletics + Magic) / 2|
-|Boon Hand Size||5|2D8|(Luck)|
+|---------|-----|----|----|-------|
+|Speed|8|6|2D8|(Athletics + Luck) / 2||
+|Physical Stamina|13|7|3D8+|(Athletics + Martial) / 2||
+|Mental Stamina|7|6|2D8|(Athletics + Magic) / 2||
+|Boon Hand Size||5|2D8|(Luck)||
 
 ### Skills
-|Name|Attribute|Ranks|Skill Bonus|Other Modifiers|Boons Accessed|
-|----|---------|-----|---------|
-|Ritual|Magic|4||
-|1-Handed Swords|Martial|6||
-|Shields|Martial|5||
-|Riding|Athletics|5||
-|Investigation|Social|4||
+|Name|Attribute|Total Bonus|Ranks|Skill Bonus|Other Modifiers|Boons Accessed|
+|----|---------|-----------|-----|-----------|---------------|--------------|
+|Ritual|Magic|4|4|4|0||
+|1-Handed Swords|Martial|6|6|6|0||
+|Shields|Martial|4|5|4|0||
+|Riding|Athletics|4|5|4|0||
+|Investigation|Social|4|4|4|0||
 
 ### Boons
 
 |Name|Source|Effect(s)|
 |----|------|---------|
 |Mind's Fire|Loyalty: Order of Mind's Fire|Automatic combustion of fire spell targets.  Double damage vs Monmocht Morchti.
+
+
+### Armor
+### Equipement
+
+### Attack and Defense
+### Resistances
