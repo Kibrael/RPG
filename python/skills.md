@@ -7,15 +7,15 @@ Boons acquired through skill development are known and can be used if the charac
 |----------|---------|-----|
 |0|Untrainted|-2|
 |1|Novice||
-|2||+1|
+|2||+2|
 |3|||
-|4||+1|
+|4||+2|
 |5|Adept||
-|6||+1|
+|6||+2|
 |7|||
-|8||+1|
+|8||+2|
 |9|||
-|10|Master|+1|
+|10|Master|+2|
 
 *Note: some settings or contexts may have higher or lower possible skill ranks*  
 
