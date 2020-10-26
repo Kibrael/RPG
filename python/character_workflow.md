@@ -49,20 +49,18 @@ Summary: An inquisition warrior hunting the last of the traitor's who destroyed 
 |Attribute|Score|Rank|Dice|Formula|
 |---------|-----|----|----|-------|
 |Speed|8|6|2D8|(Athletics + Luck) / 2||
-
-
 |Physical Stamina|13|7|3D8+|(Athletics + Martial) / 2||
+
 |Mental Stamina|7|6|2D8|(Athletics + Magic) / 2||
-|Boon Hand Size||5|2D8|(Luck)||
+|Boon Hand Size|NA|5|2D8|(Luck)||
 
 ### Skills
 |Name|Attribute|Total Bonus|Ranks|Skill Bonus|Other Modifiers|Boons Accessed|
 |----|---------|-----------|-----|-----------|---------------|--------------|
 |Ritual|Magic|4|4|4|0||
 |1-Handed Swords|Martial|6|6|6|0||
-
-
 |Shields|Martial|4|5|4|0||
+
 |Riding|Athletics|4|5|4|0||
 |Investigation|Social|4|4|4|0||
 
