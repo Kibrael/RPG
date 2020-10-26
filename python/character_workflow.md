@@ -50,7 +50,6 @@ Summary: An inquisition warrior hunting the last of the traitor's who destroyed 
 |---------|-----|----|----|-------|
 |Speed|8|6|2D8|(Athletics + Luck) / 2||
 |Physical Stamina|13|7|3D8+|(Athletics + Martial) / 2||
-
 |Mental Stamina|7|6|2D8|(Athletics + Magic) / 2||
 |Boon Hand Size|NA|5|2D8|(Luck)||
 
@@ -60,7 +59,6 @@ Summary: An inquisition warrior hunting the last of the traitor's who destroyed 
 |Ritual|Magic|4|4|4|0||
 |1-Handed Swords|Martial|6|6|6|0||
 |Shields|Martial|4|5|4|0||
-
 |Riding|Athletics|4|5|4|0||
 |Investigation|Social|4|4|4|0||
 
@@ -70,9 +68,19 @@ Summary: An inquisition warrior hunting the last of the traitor's who destroyed 
 |----|------|---------|
 |Mind's Fire|Loyalty: Order of Mind's Fire|Automatic combustion of fire spell targets.  Double damage vs Monmocht Morchti.
 
-
+### Equipment
 ### Armor
-### Equipement
+Chainmail 
+
+### Weapons
+Longsword
+Crossbow
 
 ### Attack and Defense
+|Weapon|Dice|Skill Bonus|Attribute|Skill|Boons Known|
+|------|----|-----------|---------|-----|---------------|
+Longsword|3D8+|6|Martial|1-Handed Swords||
+Crossbow|3D8+|6|Martial|Bows||
+
+
 ### Resistances
