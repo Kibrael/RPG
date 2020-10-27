@@ -1,9 +1,10 @@
 ## [Overview](https://github.com/Kibrael/RPG/blob/master/python/overview.md)
 ### Constructing a Character Workflow
 
-- Character Concept
+- Character Concept: 
 - Background, Contacts, Loyalties, Pivotal Events
-- Attributes
+Who are you? Who knows you? Where have you been and what have you done? Are people looking for you? Why? Who must you protect? Who are your friends?
+- Attributes: Choose levels of attributes
 - Attribute Boons
 - Secondary Attributes
 - Secondary Attribute Boons
@@ -37,36 +38,44 @@ Summary: An inquisition warrior hunting the last of the traitor's who destroyed 
 
 ### Primary Attributes
 
-|Attribute|Rank|Dice|
-|---------|----|----|
-|Social|4|2D8|
-|Martial|7|3D8+|
-|Athletic|7|3D8+|
-|Magic|5|2D8|
-|Luck|5|2D8|
+|Attribute|Rank|Dice|Boons Unlocked|
+|---------|----|----|--------------|
+|Social|4|2D8|0|
+|Martial|7|3D8+|1|
+|Athletic|7|3D8+|1|
+|Magic|5|2D8|0|
+|Luck|5|2D8|0|
 
 ### Secondary Attributes
-|Attribute|Score|Rank|Dice|Formula|
-|---------|-----|----|----|-------|
-|Speed|8|6|2D8|(Athletics + Luck) / 2||
-|Physical Stamina|13|7|3D8+|(Athletics + Martial) / 2||
-|Mental Stamina|7|6|2D8|(Athletics + Magic) / 2||
-|Boon Hand Size|NA|5|2D8|(Luck)||
+|Attribute|Score|Rank|Dice|Formula|Boons Unlocked|
+|---------|-----|----|----|-------|--------------|
+|Speed|8|6|2D8|(Athletics + Luck) / 2|1|
+|Physical Stamina|13|7|3D8+|(Athletics + Martial) / 2|1|
+|Mental Stamina|7|6|2D8|(Athletics + Magic) / 2|1|
+|Boon Hand Size|NA|5|2D8|(Luck)|0|
 
 ### Skills
-|Name|Attribute|Total Bonus|Ranks|Skill Bonus|Other Modifiers|Boons Accessed|
+|Name|Attribute|Total Bonus|Ranks|Skill Bonus|Other Modifiers|Boons Unlocked|
 |----|---------|-----------|-----|-----------|---------------|--------------|
-|Ritual|Magic|4|4|4|0||
-|1-Handed Swords|Martial|6|6|6|0||
-|Shields|Martial|4|5|4|0||
-|Riding|Athletics|4|5|4|0||
-|Investigation|Social|4|4|4|0||
+|Ritual|Magic|4|4|4|0|2|
+|1-Handed Swords|Martial|6|6|6|0|3|
+|Bows|Martial|4|4|4|0|Crossbow Damage Boost, +1 more| 
+|Shields|Martial|4|5|4|0|2|
+|Riding|Athletics|4|5|4|0|2|
+|Investigation|Social|4|4|4|0|2|
 
 ### Boons
 
 |Name|Source|Effect(s)|
 |----|------|---------|
 |Mind's Fire|Loyalty: Order of Mind's Fire|Automatic combustion of fire spell targets.  Double damage vs Monmocht Morchti.
+|Shield Stun|Shield Skill|Stun on Hit (opponent can resist)|
+|Damage Resist|Martial Attribute||1-Handed Swords|Martial|6|6|6|0||
+|Break Stun|Martial Attribute|
+|Longsword Mastery|1-H Swords|
+|Impale|1-H Swords|
+|Surge|General Boon|
+|Snap Reaction|General Boon|
 
 ### Equipment
 ### Armor
