@@ -77,7 +77,9 @@ Casting spells:
 
 ### Attribute Recovery
 
-### Fatigue Tests
+### Status Tests
+
+
 
 ### Status Effects
 Not all status effects are negative.
@@ -96,7 +98,7 @@ Not all status effects are negative.
 - Physical: no movement
 - Physical: staggered, off balance
 - Physical: broken bone
-
+- Physical: Fatigue 
 
 **Resisting Status Effects**
 **Recovering from Status Effects**
