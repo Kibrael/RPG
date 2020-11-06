@@ -82,6 +82,7 @@ Casting spells:
 
 
 ### Status Effects
+Ranked from 0 to 10 with 0 being weakest.
 Not all status effects are negative.
 
 **Status Effect Types**
@@ -134,37 +135,13 @@ unlock combat maneuvers and special attacks through combinations of boons and sk
 boon or curse prerequisites then it must be powered with boon or curse cards. 
 - parry
 - disarm
+- riposte
 - bonus damage (from skill?)
 - dodge
 - precision attacks
 - alter weapon damage type (strike with hilt)
 - block
 
-w
-actions per round/segment
-- physical
-- mental
-- magical
-
-Initiative/speed
-- physical
-- mental
-- magical
-
-maneuvers, attack options, defense options
-- physical
-- mental
-- magical
-
-resisting effects
-- physical
-- mental
-- magical
-
-magic
-- physical
-- mental
-- magical
 
 Damage: 
 - Options: 

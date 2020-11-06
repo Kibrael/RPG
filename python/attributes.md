@@ -91,14 +91,24 @@ Attributes give a curse at each point below normal that does not have a dice poo
 |Name|Tier|Effect|
 |----|----|------|
 |Like a Stone|1|Toll physique dice to reduce damage once|
-Lightning Step|Win a speed test (it must have been possible to win on a roll)|
+|Lightning Step|1|Win a speed test (it must have been possible to win on a roll)|
+Extra Actions
+Extra Distance
+Strength Surge
+
+
 
 **Mental**
+Focus resistance to status effects
 
 
 **Social**
+Fear effect
+Moral Boost
+
 
 **Seidr**
+consume self to power Seidr
 
 **Wyrd**
 
