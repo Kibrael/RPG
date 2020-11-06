@@ -69,10 +69,16 @@ Curses are bestowed for a low attribute score, using an untrained skill, interac
 ### Boon Lists
 
 ### General Boons
+change damage type
+do damage on failed roll by taking damage
+rend armor (reduce DR)
+reduce status effect level
+remove status effects
 
 ### Attribute Boons
 - See [Attribute Boons and Curses]()
 
 ### Skill Boons (include spell boons)
+flash read auras (spell boon): get general information on the status and disposition and corruption of nearby creatures
 
 ### Monmocht Morcthi Boons

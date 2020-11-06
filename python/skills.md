@@ -38,7 +38,7 @@ Represented through the boons chosen. A boon can be chosen for a subskill such a
 
 ### Skill and Sub-Skill List
 
-**Physique**
+### Physique
 - Athletics
 - Craft: Armor, Hand Weapons, Firearms, Bows
 - Flight: unpowered, small craft, large craft
@@ -64,12 +64,13 @@ Weapons:
 - Swords 4h
 
 
-**Mental**
+### Mental
 - Architecture
 - Craft: herbs
 - Engineering
-- 
+- Hydraulics
 - Knowledge: history, folklore, ritual, mythology and legend, lost arts 
+- 
 - Medicine
 - Metallurgy
 - Mechanics
@@ -77,7 +78,7 @@ Weapons:
 - 
 
 
-**Social**
+### Social
 - Animal Use: riding, battle
 - Animal Care: breeding, handling, feeding, vet stuff
 - Deception
@@ -89,12 +90,23 @@ Weapons:
 - 
 
 
-**Seidr**
+### Seidr
 - Alchemy
 - Augury
-- Dream Hunting
-- Fire
+- Divination
+- Dreamscapes
+- Elemental: Fire, Water, Earth, Air 
+- Hexes
 - Ritual
 - Shadows
 - Wards
-- 
+
+### Skill Boons
+Melee Weapon Mastery
+Ranged Weapon Mastery
+Spell mastery
+Sedir school mastery
+Craft mastery
+Material Mastery (IE Metal, wood, leather)
+Ritual fortification
+Wundermachen fortification
