@@ -3,19 +3,19 @@
 As characters advance in skill ranks they acquire boons and modifiers to dice rolls.  
 Boons acquired through skill development are known and can be used if the character can play boons.  
 
-|Skill Rank|Heuristic|Bonus|
-|----------|---------|-----|
-|0|Untrainted|-2|
-|1|Novice||
-|2||+2|
-|3|||
-|4||+2|
-|5|Adept||
-|6||+2|
-|7|||
-|8||+2|
-|9|||
-|10|Master|+2|
+|Skill Rank|Heuristic|Bonus|Boon Tier Unlocked|
+|----------|---------|-----|------------------|
+|0|Untrainted|-2|0|
+|1|Novice|||
+|2||+2|1|
+|3||||
+|4||+2|2|
+|5|Adept|||
+|6||+2|3|
+|7||||
+|8||+2|4|
+|9||||
+|10|Master|+2|5|
 
 *Note: some settings or contexts may have higher or lower possible skill ranks*  
 
@@ -37,9 +37,8 @@ Represented through the boons chosen. A boon can be chosen for a subskill such a
 
 
 ### Skill and Sub-Skill List
-- Alchemy
-- Animal Use: riding, battle
-- Animal Care: breeding, handling, feeding, vet stuff
+
+**Martial**
 - Archery
     - Crossbows
     - Longbows
@@ -47,21 +46,44 @@ Represented through the boons chosen. A boon can be chosen for a subskill such a
 - Armor: flexible
 - Armor: rigid
 - Axes
-- Command
-- Craft: Armor, Hand Weapons, Firearms, Bows
-- Engineering
+
 - Firearms
-- Flight: unpowered, small craft, large craft
-- Knowledge: history, folklore
-- Leadership
-- Metallurgy
-- Mechanics
-- Navigation
 - Polearms
-- Ritual
-- Stalking
 - Swords 1h
 - Swords 2h
 - Swords 4h
 
+**Social**
+- Command
+- Flight: unpowered, small craft, large craft
+- Leadership
+
+**Athletic**
+- Craft: Armor, Hand Weapons, Firearms, Bows
+- Engineering
+- Knowledge: history, folklore
+- Medicine
+- Metallurgy
+- Mechanics
+- Navigation
+- Ritual
+- Stalking
+- Salvage
 - Welding
+
+**Magic**
+- Alchemy
+- Animal Use: riding, battle
+- Animal Care: breeding, handling, feeding, vet stuff
+
+
+
+
+
+
+
+
+- 
+
+
+

@@ -40,28 +40,30 @@ Summary: An inquisition warrior hunting the last of the traitor's who destroyed 
 
 |Attribute|Rank|Dice|Boons Unlocked|
 |---------|----|----|--------------|
+|Physique|7|3D8+|1|
+|Mental|7|3D8+|1|
 |Social|4|2D8|0|
-|Martial|7|3D8+|1|
-|Athletic|7|3D8+|1|
-|Magic|5|2D8|0|
-|Luck|5|2D8|0|
+|Seidr|5|2D8|0|
+|Wyrd|5|2D8|0|
 
 ### Secondary Attributes
+
 |Attribute|Score|Rank|Dice|Formula|Boons Unlocked|
 |---------|-----|----|----|-------|--------------|
-|Speed|8|6|2D8|(Athletics + Luck) / 2|1|
-|Physical Stamina|13|7|3D8+|(Athletics + Martial) / 2|1|
-|Mental Stamina|7|6|2D8|(Athletics + Magic) / 2|1|
-|Boon Hand Size|NA|5|2D8|(Luck)|0|
+|Speed|8|6|2D8|(Physique + Mental + Wyrd) / 3|1|
+|Physical Stamina|13|7|3D8+|(Physique)|1|
+|Mental Stamina|7|6|2D8|(Mental + Seidr) / 2|1|
+|Boon Hand Size|NA|5|2D8|(Wyrd)|0|
 
 ### Skills
+
 |Name|Attribute|Total Bonus|Ranks|Skill Bonus|Other Modifiers|Boons Unlocked|
 |----|---------|-----------|-----|-----------|---------------|--------------|
-|Ritual|Magic|4|4|4|0|2|
-|1-Handed Swords|Martial|6|6|6|0|3|
-|Bows|Martial|4|4|4|0|Crossbow Damage Boost, +1 more| 
-|Shields|Martial|4|5|4|0|2|
-|Riding|Athletics|4|5|4|0|2|
+|Ritual|Seidr|4|4|4|0|2|
+|1-Handed Swords|Physique|6|6|6|0|3|
+|Bows|Physique|4|4|4|0|Crossbow Damage Boost, +1 more| 
+|Shields|Physique|4|5|4|0|2|
+|Riding|Physique|4|5|4|0|2|
 |Investigation|Social|4|4|4|0|2|
 
 ### Boons
@@ -70,14 +72,15 @@ Summary: An inquisition warrior hunting the last of the traitor's who destroyed 
 |----|------|---------|
 |Mind's Fire|Loyalty: Order of Mind's Fire|Automatic combustion of fire spell targets.  Double damage vs Monmocht Morchti.
 |Shield Stun|Shield Skill|Stun on Hit (opponent can resist)|
-|Damage Resist|Martial Attribute||1-Handed Swords|Martial|6|6|6|0||
-|Break Stun|Martial Attribute|
+|Damage Resist|Physique Attribute||1-Handed Swords|Physique|6|6|6|0||
+|Break Stun|Physique Attribute|
 |Longsword Mastery|1-H Swords|
 |Impale|1-H Swords|
 |Surge|General Boon|
 |Snap Reaction|General Boon|
 
 ### Equipment
+
 ### Armor
 Chainmail 
 
@@ -88,8 +91,8 @@ Crossbow
 ### Attack and Defense
 |Weapon|Dice|Skill Bonus|Attribute|Skill|Boons Known|
 |------|----|-----------|---------|-----|---------------|
-Longsword|3D8+|6|Martial|1-Handed Swords||
-Crossbow|3D8+|6|Martial|Bows||
+Longsword|3D8+|6|Physique|1-Handed Swords||
+Crossbow|3D8+|6|Physique|Bows||
 
 
-### Resistances
+### (status?) Resistances

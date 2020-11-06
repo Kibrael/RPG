@@ -57,12 +57,16 @@ Wyrd is the attribute governing a character's unformed ability to influence the 
 Wyrd determines a character's ability to influence the world that is not outlined in the other attributes.
 Wyrd determines boon hand size during combat and can be used to influence dice rolls.
 
-use boons to specialize in attribute focus:
-	- IE physique boon for auto win speed test vs resist damage
+Spend a Wyrd point to add 1 to a roll. Can only be used once per roll. Simulates the "almost didn't make it" effect.
+Luck is the remainder attribute. After other attributes are chosen, the remaining points are put into the Luck attribute.
+Luck represents the unfocused force of destiny and legend on the character. Higher luck gives stronger influence on destiny.
+If players are rolling for stats, the highest player's attribute total is used for determining Luck remainder points for all characters.
+- IE 
 
 
 
-### Attribute and Skill Table
+
+### Attribute Table: Dice Pools and Boons
 
 |Rank|Attribute Effect|
 |----|----------------|
@@ -81,25 +85,21 @@ use boons to specialize in attribute focus:
 Attributes grant a boon at each point above normal that does not have a dice pool change.  
 Attributes give a curse at each point below normal that does not have a dice pool change.  
 
-### Attribute Boons and Curses**
+### Attribute Boons and Curses
 
 **Physique**
-Damage Resistant roll martial dice to reduce damage once
-
+Like a Stone: roll physique dice to reduce damage once
+Lightning Step: win a speed test (it must have been possible to win on a roll)
 
 **Mental**
 
 
 **Social**
 
+**Seidr**
 
-**Luck**
-Spend a luck point to add 1 to a roll. Can only be used once per roll. Simulates the "almost didn't make it" effect.
-Luck is the remainder attribute. After other attributes are chosen, the remaining points are put into the Luck attribute.
-Luck represents the unfocused force of destiny and legend on the character. Higher luck gives stronger influence on destiny.
-If players are rolling for stats, the highest player's attribute total is used for determining Luck remainder points for all characters.
-- IE 
+**Wyrd**
 
-**Magic**
+
 
 **Monmocht Mortchti**
