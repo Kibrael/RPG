@@ -39,12 +39,13 @@ Represented through the boons chosen. A boon can be chosen for a subskill such a
 ### Skill and Sub-Skill List
 
 **Physique**
-- Stalking
-
-
+- Athletics
+- Craft: Armor, Hand Weapons, Firearms, Bows
 - Flight: unpowered, small craft, large craft
-
+- Riding: land animals
 - Salvage
+- Stalking
+- Survival
 - Welding
 
 Weapons:
@@ -63,11 +64,12 @@ Weapons:
 - Swords 4h
 
 
-
 **Mental**
-- Craft: Armor, Hand Weapons, Firearms, Bows
+- Architecture
+- Craft: herbs
 - Engineering
-- Knowledge: history, folklore, Arcanum
+- 
+- Knowledge: history, folklore, ritual, mythology and legend, lost arts 
 - Medicine
 - Metallurgy
 - Mechanics
@@ -82,14 +84,17 @@ Weapons:
 - Entertain
 - Leadership
 - Mingle
+- Social Engineering
 - Trade
 - 
 
 
 **Seidr**
 - Alchemy
+- Augury
+- Dream Hunting
+- Fire
 - Ritual
 - Shadows
 - Wards
-
 - 

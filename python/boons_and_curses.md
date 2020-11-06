@@ -72,6 +72,7 @@ Curses are bestowed for a low attribute score, using an untrained skill, interac
 
 ### Attribute Boons
 - See [Attribute Boons and Curses]()
+
 ### Skill Boons (include spell boons)
 
 ### Monmocht Morcthi Boons

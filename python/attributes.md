@@ -88,8 +88,10 @@ Attributes give a curse at each point below normal that does not have a dice poo
 ### Attribute Boons and Curses
 
 **Physique**
-Like a Stone: roll physique dice to reduce damage once
-Lightning Step: win a speed test (it must have been possible to win on a roll)
+|Name|Tier|Effect|
+|----|----|------|
+|Like a Stone|1|Toll physique dice to reduce damage once|
+Lightning Step|Win a speed test (it must have been possible to win on a roll)|
 
 **Mental**
 
