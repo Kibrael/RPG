@@ -38,20 +38,30 @@ Represented through the boons chosen. A boon can be chosen for a subskill such a
 
 ### Skill and Sub-Skill List
 - Alchemy
+- Animal Use: riding, battle
+- Animal Care: breeding, handling, feeding, vet stuff
 - Archery
     - Crossbows
     - Longbows
     - Recurves
+- Armor: flexible
+- Armor: rigid
+- Axes
 - Command
 - Craft: Armor, Hand Weapons, Firearms, Bows
 - Engineering
 - Firearms
 - Flight: unpowered, small craft, large craft
 - Knowledge: history, folklore
+- Leadership
 - Metallurgy
 - Mechanics
 - Navigation
-- Animalry
+- Polearms
 - Ritual
 - Stalking
+- Swords 1h
+- Swords 2h
+- Swords 4h
+
 - Welding
