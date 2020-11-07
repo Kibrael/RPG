@@ -28,6 +28,7 @@ Incapacitated characters cannot attack, defend, use skills, or magic. They are c
 
 
 ### Combat Round Options:
+
 **Attack:** 
 - Roll dice pool + skill + modifiers + boons
 -	For each attack, the target may make a defense roll using one or more of the skills available. 
@@ -36,6 +37,18 @@ Incapacitated characters cannot attack, defend, use skills, or magic. They are c
 **Position/Move:**
 - Move your distance
 - Reposition at less than your distance with a tactics skill check to gain dominance 
+
+**Maneuvers:**
+Some actions draw upon the latent `seidr` of the world and have the power to change the course of critical events (like the outcome of a battle between heros and monsters).
+These actions require a boon to be spent from the combat boon hand. The bonus of this boon (if applicable) is gained in the action. 
+If a boon is not spent, then a curse afflicts the character. The curse is of equal tier to the boon required to power the action.
+
+**Maneuver List:**
+Theme: in power tiers 1-5 relating to boon/curse powers, these actions should affect the outcome of conflict situations (remember social and mental applications)
+- Riposte: automatically attack after a parry
+- Disarm Block/Parry:
+- 
+
 
 
 ### Armor Effects and Modifiers
@@ -106,14 +119,12 @@ Casting spells:
 - skill check with relevant dice and skill ranks
 - Resist fatigue with a fortitude roll
 
-**Magic Statuses**
-**Magic Status Modifiers**
 
-### Mental and Physical Fortitue Recovery
 
-### Attribute Recovery
 
-### Status Tests
+### Wound and Status Tests
+After a hit has been delivered a character must make a wound test to determine if the hit was material.
+Roll the `Fortitude` attribute relevant to the type of hit (physical vs mental)
 
 
 
@@ -137,9 +148,16 @@ Not all status effects are negative.
 - Physical: broken bone
 - Physical: Fatigue 
 
+**Magic Statuses**
+**Magic Status Modifiers**
 **Resisting Status Effects**
 **Recovering from Status Effects**
 **Causing a Status Effect**
+
+### Mental and Physical Fortitue Recovery
+
+### Attribute Recovery
+
 
 ### Brainstorming Options
 Stylistic Options:

@@ -14,6 +14,18 @@ Types
 - Dreamscapes
 - Elemental: Fire, Water, Earth, Air 
 - Hexes
+- Mechanica
+- Restorative
 - Ritual
 - Shadows
 - Wards
+
+Spells are rituals that have been standardized and recorded. The appearance, implements, ingredients, etc can be referenced and recognized.
+- Recognized spells can show others which organizations a character is allied with. Beware tipping your hand to enemies.
+
+Accessing or learning the spells of an organization frequently requires membership loyalty or the exchange of significant favors.
+Spells curated and known by an organization have strong thematic components. 
+Research along specific lines is often fostered by an organization and specialization is self reinforcing, resulting in deep specialties.
+Utility magics have been traded between sects and because of this some spells have become available outside their original originization. 
+These spells are typically not exceptionally powerful but represent the types of magical utility that most practitioners need to survive or prosper.
+- IE basic wards, mental protections

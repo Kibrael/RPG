@@ -58,6 +58,8 @@ Weapons:
 - Axes 1h
 - Axes 2h
 - Firearms
+- Maces 1h
+- Maces 2h
 - Polearms
 - Swords 1h
 - Swords 2h
