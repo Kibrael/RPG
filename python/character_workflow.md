@@ -48,12 +48,12 @@ Summary: An inquisition warrior hunting the last of the traitor's who destroyed 
 
 ### Secondary Attributes
 
-|Attribute|Score|Rank|Dice|Formula|Boons Unlocked|
-|---------|-----|----|----|-------|--------------|
-|Speed|8|6|2D8|(Physique + Mental + Wyrd) / 3|1|
-|Physical Stamina|13|7|3D8+|(Physique)|1|
-|Mental Stamina|7|6|2D8|(Mental + Seidr) / 2|1|
-|Boon Hand Size|NA|5|2D8|(Wyrd)|0|
+|Attribute|Rank|Dice|Formula|Boons Unlocked|
+|---------|----|----|-------|--------------|
+|Alacrity|6|2D8|(Physique + Mental + Wyrd) / 2|1|
+|Physical Fortitude|7|3D8+|(Physique + Wyrd)|1|
+|Mental Fortitude|6|2D8|(Mental + Wyrd) / 2|1|
+|Boon Hand Size|5|2D8|(Wyrd)|0|
 
 ### Skills
 
@@ -61,7 +61,7 @@ Summary: An inquisition warrior hunting the last of the traitor's who destroyed 
 |----|---------|-----------|-----|-----------|---------------|--------------|
 |Ritual|Seidr|4|4|4|0|2|
 |1-Handed Swords|Physique|6|6|6|0|3|
-|Bows|Physique|4|4|4|0|Crossbow Damage Boost, +1 more| 
+|Archery|Physique|4|4|4|0|Crossbow Damage Boost, +1 more| 
 |Shields|Physique|4|5|4|0|2|
 |Riding|Physique|4|5|4|0|2|
 |Investigation|Social|4|4|4|0|2|

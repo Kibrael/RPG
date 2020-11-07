@@ -18,7 +18,7 @@ In some cases multiple attributes may be averaged for skill rolls.
 The attribute or attributes governing a skill determine which dice to roll when performing tests of that skill.
 
 
-**Attribute Theory:**
+**Attribute Theory:**  
 Continuing the implementation of `less is more` some attributes that are split in other games have been combined. 
 This has two effects:
 1) It simplifies gameplay, which is especially important for new players (and experienced players make new rules anyway).
@@ -68,19 +68,19 @@ If players are rolling for stats, the highest player's attribute total is used f
 
 ### Attribute Table: Dice Pools and Boons
 
-|Rank|Attribute Effect|Boon or Curse|
-|----|----------------|-------------|
-|0||Curse|
-|1|4d8 Low 2||
-|2||Curse|
-|3|3d8 Low 2||
-|4||Curse|
-|5|2d8||
-|6||Boon|
-|7|3d8 High 2||
-|8||Boon|
-|9|4d8 High 2||
-|10||Boon|
+|Rank|Attribute Effect|Boon or Curse|Tier|
+|----|----------------|-------------|----|
+|0||Curse|-5|
+|1|4d8 Low 2||-4|
+|2||Curse|-3|
+|3|3d8 Low 2||-2|
+|4||Curse|-1|
+|5|2d8||1|
+|6||Boon|2|
+|7|3d8 High 2||3|
+|8||Boon||
+|9|4d8 High 2||4|
+|10||Boon|5|
 
 Attributes grant a boon at each point above normal that does not have a dice pool change.  
 Attributes give a curse at each point below normal that does not have a dice pool change.  
@@ -92,6 +92,7 @@ Attributes give a curse at each point below normal that does not have a dice poo
 |----|----|------|
 |Like a Stone|1|Toll physique dice to reduce damage once|
 |Lightning Step|1|Win a speed test (it must have been possible to win on a roll)|
+
 Extra Actions
 Extra Distance
 Strength Surge

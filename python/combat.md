@@ -2,13 +2,40 @@
 ### Combat Overview
 Combat, like other skill use, tests a player against an opponent. The opponent could be active or passive. The main distinction
 
+Characters have fortitude, which represents their hardiness and resistance to fatigue, damage, etc. 
+When a character is hit in combat, exposed to environmental danger, etc, the character makes a wound test.
+If the wound test fails, the character receives one or more wounds, each with a severity rating and potential status effect.
+Status effects are cumulative, for example two bleeding wounds are each checked independently every round for additional effects.
+
+When a character has taken enough wounds to equal their fortitude score, they are incapacitated and can only take minor actions such as crawl several feet.
+Incapacitated characters cannot attack, defend, use skills, or magic. They are considered helpless.
+
+**Glossary**
+- Dominance: a position of tactical advatnage in combat, gives a bonus to tests of attack and defense.
+- Defense Roll:
+- Attack Roll:
+- Reposition
+- Move
+- Armor Types
+- Status Effect (including effect levels)
+- Damage Types (vs armor/defense)
+- Helpless
+- Incapacitated
+- Fortitude
+- Wound
+- Wound Test
+- Status Test
+
+
 ### Combat Round Options:
 **Attack:** 
 - Roll dice pool + skill + modifiers + boons
 -	For each attack, the target may make a defense roll using one or more of the skills available. 
 	Most commonly this is defending with a weapon or shield.
 
-Position/Move:
+**Position/Move:**
+- Move your distance
+- Reposition at less than your distance with a tactics skill check to gain dominance 
 
 
 ### Armor Effects and Modifiers
