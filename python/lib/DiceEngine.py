@@ -57,7 +57,7 @@ class diceEngine(object):
 		"""
 		die_rolls = []
 		for die in range(0, num_dice):
-			die_rolls.append(random.randrange(1, die_size))
+			die_rolls.append(random.randrange(1, die_size+1))
 
 		return die_rolls
 

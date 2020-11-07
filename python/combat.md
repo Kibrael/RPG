@@ -2,6 +2,14 @@
 ### Combat Overview
 Combat, like other skill use, tests a player against an opponent. The opponent could be active or passive. The main distinction
 
+### Combat Round Options:
+**Attack:** 
+- Roll dice pool + skill + modifiers + boons
+-	For each attack, the target may make a defense roll using one or more of the skills available. 
+	Most commonly this is defending with a weapon or shield.
+
+Position/Move:
+
 
 ### Armor Effects and Modifiers
 Armor mitigates damage received. This mitigation is a passive effect and requires no action or skill use by the wearer. 
@@ -28,6 +36,7 @@ Armor types are composed from two factors: material and style.
 **Effects on Damage and Statuses**
 Armor grants reductions to damage type based on the quality of the armor and the relationship to weapon damage type.
 Armor also grants resistance to status effects based on quality and relationship to type and cause of the status.
+Some armor can block the application of certain statuses 
 
 ### Weapons Effects and Modifiers
 
@@ -39,7 +48,7 @@ Weapons have one or more damage types that they inflict.
 The three primary damage types for weapons are: Slashing, Bludgeoning, and Piercing. 
 
 **Weapon Statuses**
-- bleeding: tiers
+- bleeding: save every turn or suffer another 1 or more wounds
 - stunned
 - unconscious
 - crippled

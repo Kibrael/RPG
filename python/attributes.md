@@ -68,19 +68,19 @@ If players are rolling for stats, the highest player's attribute total is used f
 
 ### Attribute Table: Dice Pools and Boons
 
-|Rank|Attribute Effect|
-|----|----------------|
-|0|Curse|
-|1|4d8 Low 2|
-|2|Curse|
-|3|3d8 Low 2|
-|4|Curse|
-|5|2d8|
-|6|Boon|
-|7|3d8 High 2|
-|8|Boon|+2|
-|9|4d8 High 2|
-|10|Boon|
+|Rank|Attribute Effect|Boon or Curse|
+|----|----------------|-------------|
+|0||Curse|
+|1|4d8 Low 2||
+|2||Curse|
+|3|3d8 Low 2||
+|4||Curse|
+|5|2d8||
+|6||Boon|
+|7|3d8 High 2||
+|8||Boon|
+|9|4d8 High 2||
+|10||Boon|
 
 Attributes grant a boon at each point above normal that does not have a dice pool change.  
 Attributes give a curse at each point below normal that does not have a dice pool change.  

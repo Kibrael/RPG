@@ -12,7 +12,7 @@ Types
 - Augury
 - Divination
 - Dreamscapes
-- Elementa: Fire, Water, Earth, Air 
+- Elemental: Fire, Water, Earth, Air 
 - Hexes
 - Ritual
 - Shadows

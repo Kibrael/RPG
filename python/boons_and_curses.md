@@ -74,6 +74,11 @@ do damage on failed roll by taking damage
 rend armor (reduce DR)
 reduce status effect level
 remove status effects
+improved defense: no penalty on defense roll for multiple attackers
+
+boons to defend against attacks (especially boon or status attacks)
+- model after fantasy wizard duels
+- use same approach for magic
 
 ### Attribute Boons
 - See [Attribute Boons and Curses]()
