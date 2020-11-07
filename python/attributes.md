@@ -75,10 +75,10 @@ If players are rolling for stats, the highest player's attribute total is used f
 |2||Curse|-3|
 |3|3d8 Low 2||-2|
 |4||Curse|-1|
-|5|2d8||1|
-|6||Boon|2|
-|7|3d8 High 2||3|
-|8||Boon||
+|5|2d8||0|
+|6||Boon|1|
+|7|3d8 High 2||2|
+|8||Boon|3|
 |9|4d8 High 2||4|
 |10||Boon|5|
 
