@@ -33,10 +33,26 @@ Incapacitated characters cannot attack, defend, use skills, or magic. They are c
 - Roll dice pool + skill + modifiers + boons
 -	For each attack, the target may make a defense roll using one or more of the skills available. 
 	Most commonly this is defending with a weapon or shield.
-
-**Position/Move:**
-- Move your distance
+**Move:**
+Move your distance
 - Reposition at less than your distance with a tactics skill check to gain dominance 
+- 
+
+**Positioning:**
+- Create system of dominance tiers
+- one score for each side
+- increases influence on tests and outcome of tests when positive
+	- wound severity
+	- mental wound analogue
+- facilitates collaborative mechanices
+	- non-combat focused characters can influence position in a scene giving combatants advantages
+- use tactics skill, environmental effects, social positioning, gifts, (context manipulation type things)
+- strategy and tactics should be used to influence position
+	examples:
+	- an overwatch sniper strikes from cover
+	- surrounding an opponent
+	- fear effects
+	- terrain damage: falling trees/rocks, fire, cliffs
 
 **Maneuvers:**
 Some actions draw upon the latent `seidr` of the world and have the power to change the course of critical events (like the outcome of a battle between heros and monsters).
@@ -47,9 +63,9 @@ If a boon is not spent, then a curse afflicts the character. The curse is of equ
 Theme: in power tiers 1-5 relating to boon/curse powers, these actions should affect the outcome of conflict situations (remember social and mental applications)
 - Riposte: automatically attack after a parry
 - Disarm Block/Parry:
-- 
-
-
+- Shield Wall: resist/block AOE/directed effects
+- Superior Evasion: dodge all the things
+maneuvers to change position score (influence?)
 
 ### Armor Effects and Modifiers
 Armor mitigates damage received. This mitigation is a passive effect and requires no action or skill use by the wearer. 

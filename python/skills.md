@@ -6,16 +6,16 @@ Boons acquired through skill development are known and can be used if the charac
 |Skill Rank|Heuristic|Bonus|Boon Tier Unlocked|
 |----------|---------|-----|------------------|
 |0|Untrainted|-2|0|
-|1|Novice|||
-|2||+2|1|
-|3||||
-|4||+2|2|
-|5|Adept|||
-|6||+2|3|
-|7||||
-|8||+2|4|
-|9||||
-|10|Master|+2|5|
+|1|Novice||1|
+|2||+2||
+|3|||2|
+|4||+4||
+|5|Adept||3|
+|6||+6||
+|7|||4|
+|8||+8||
+|9|||5|
+|10|Master|+10|5|
 
 *Note: some settings or contexts may have higher or lower possible skill ranks*  
 
