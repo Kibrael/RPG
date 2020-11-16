@@ -44,6 +44,8 @@ Move your distance
 - increases influence on tests and outcome of tests when positive
 	- wound severity
 	- mental wound analogue
+	- access to exceptional maneuvers
+	- access to higher spell tiers
 - facilitates collaborative mechanices
 	- non-combat focused characters can influence position in a scene giving combatants advantages
 - use tactics skill, environmental effects, social positioning, gifts, (context manipulation type things)
@@ -65,6 +67,10 @@ Theme: in power tiers 1-5 relating to boon/curse powers, these actions should af
 - Disarm Block/Parry:
 - Shield Wall: resist/block AOE/directed effects
 - Superior Evasion: dodge all the things
+- Extra Wound(s) need to set a max of wounds that can be stacked?
+- Apply Status (requires something like skill unlock with weapon)
+
+
 maneuvers to change position score (influence?)
 
 ### Armor Effects and Modifiers
@@ -74,17 +80,7 @@ Armor mitigates damage received. This mitigation is a passive effect and require
 
 
 **Armor Types**
-
-Armor types are composed from two factors: material and style.
-- Material has the subtypes `hard` and `soft`
-- Style has the subtypes `rigid` and `flexible`
-
 **Armor Type List**
-- `HR`: hard material and rigid style, examples include: plate, chitin, wood.
-- `HF`: hard material and flexible style, examples include: chain, lamelar, scale.
-- `SR`: soft material and rigid style, examples include: boiled leather, laminated layers of cloth (or other), studded leather, banded mail.
-- `SF`: soft material and flexible style, examples include: padded gambesons, soft leather, hide.
-
 **Armor Statuses**
 **Armor Status Modifiers**
 **Effects on Mobility**

@@ -80,10 +80,62 @@ boons to defend against attacks (especially boon or status attacks)
 - model after fantasy wizard duels
 - use same approach for magic
 
-### Attribute Boons
-- See [Attribute Boons and Curses]()
+### Attribute Boons### Attribute Boons and Curses
+
+**Physique**
+|Name|Tier|Effect|
+|----|----|------|
+|Like a Stone|1|Toll physique dice to reduce damage once|
+|Lightning Step|1|Win a speed test (it must have been possible to win on a roll)|
+
+Extra Actions: 0/1/2/2/3
+Extra Distance:
+Strength Surge: 1/2/3/4/5 (at +1 per tier)
+Bonus Physical Resist: 1/2/3/4/5 (at +1 per tier)
+
+**Mental**
+Bonus Mental Resist: 1/2/3/4/5 (at +1 per tier)
+
+**Social**
+Fear effect
+Moral Boost: 1/2/3/4/5 (at +1 per tier)
+
+**Seidr**
+consume self to power Seidr: convert wounds to Seidr for next spell : 1/2/3/4/5 (at +1 per tier)
+
+**Wyrd**
+Reuse: use this boon to return one or more spent boons to your combat hand or deck 1/1/2/2/3
+
+
+**Monmocht Mortchti**
 
 ### Skill Boons (include spell boons)
+
+
+Skill Mastery: 1/2/3/4/5 (at +1 per tier) general increase in ability with skill
+	- Melee Weapon Mastery: 1/2/3/4/5 (at +1 per tier)
+	- Ranged Weapon Mastery: 1/2/3/4/5 (at +1 per tier)
+	- Shield
+	- Craft 
+	- Spell 
+	- Armor: wound resist bonus 
+	- Armor: status resist 
+	- Seidr school: 
+	- Material Mastery (IE Metal, wood, leather)
+
+Skill Specialization: additional maneuvers, bonuses, enchantments, options available (IE 1h swords riposte, hammer weapon sunder, craft quality tiers, )
+	- Weapon
+	- Craft
+	- Shield: AOE cover, push opponent, shield wall, 
+	- Armor: passive wound mitigation (IE auto resist x wounds)
+	- Armor: status resistance, bonus to resist statuses
+	- Medicine: cure status, boost resist (wound or status), prevent wound, remove wound (combo with other treatments IE herbalism for extra bonus)
+	- stalking: disappear from sight
+	- drain resistance, increased success chance with chosen spell, more difficult to resist, alterations to spell (appearance, effect), range, duration, 
+	- Materials Specialization (IE Metal, wood, leather)
+Deadly (weapon): additional wound(s) on hits with chosen weapon 1/2/3/4/5
+Ritual fortification: tougher to resist
+Wundermachen fortification: tougher to break
 flash read auras (spell boon): get general information on the status and disposition and corruption of nearby creatures
 
 ### Monmocht Morcthi Boons

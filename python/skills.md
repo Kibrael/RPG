@@ -91,7 +91,6 @@ Weapons:
 - Trade
 - 
 
-
 ### Seidr
 - Alchemy
 - Augury
@@ -103,12 +102,3 @@ Weapons:
 - Shadows
 - Wards
 
-### Skill Boons
-Melee Weapon Mastery
-Ranged Weapon Mastery
-Spell mastery
-Sedir school mastery
-Craft mastery
-Material Mastery (IE Metal, wood, leather)
-Ritual fortification
-Wundermachen fortification

@@ -85,35 +85,12 @@ If players are rolling for stats, the highest player's attribute total is used f
 Attributes grant a boon at each point above normal that does not have a dice pool change.  
 Attributes give a curse at each point below normal that does not have a dice pool change.  
 
+### Secondary Attributes
 
-### Attribute Boons and Curses
+|Attribute|Rank|Dice|Formula|Boons Unlocked|
+|---------|----|----|-------|--------------|
+|Alacrity|6|2D8|(Physique + Mental + Wyrd) / 2|1|
+|Physical Fortitude|7|3D8+|(Physique + Wyrd)|1|
+|Mental Fortitude|6|2D8|(Mental + Wyrd) / 2|1|
+|Boon Hand Size|5|2D8|(Wyrd)|0|
 
-**Physique**
-|Name|Tier|Effect|
-|----|----|------|
-|Like a Stone|1|Toll physique dice to reduce damage once|
-|Lightning Step|1|Win a speed test (it must have been possible to win on a roll)|
-
-Extra Actions
-Extra Distance
-Strength Surge
-
-
-
-**Mental**
-Focus resistance to status effects
-
-
-**Social**
-Fear effect
-Moral Boost
-
-
-**Seidr**
-consume self to power Seidr
-
-**Wyrd**
-
-
-
-**Monmocht Mortchti**
