@@ -74,7 +74,9 @@ Inevitable may be spent once per scene to raise the groups Inevitible score.
 used to measure the narrative force of groups. Usually, both groups would have a 0. 
 This is modified based on situational context. For example, treasure seekers burst into a god's armory while he is girded for war. 
 The treasure seekers may have a 0 or lower Inevitable group attribute while the god's may be as high as 5. 
-The Inevitible score modifies the maximum boon tier available, adjust other attributes on their tables,  
+The Inevitible score modifies the maximum boon tier available, increases player attributes by the the Inevitible: Group attribute (this can change dice pools and boon access), derived attributes are recalculated (like Alacrity)
+- increases to attributes from Inevitible do not grant new boons but do temporarily unlock new tiers of existing boons
+- If Wyrd increases, boon hand increases as well. Draw new cards to adjust for the increase in boon hand size. IE 1 Inevitible: Group adds 1 to Wyrd and 1 to boon hand size.   
 
 ### Attribute Table: Dice Pools and Boons
 
