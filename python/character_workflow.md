@@ -72,7 +72,7 @@ Summary: An inquisition warrior hunting the last of the traitor's who destroyed 
 |----|------|---------|
 |Mind's Fire|Loyalty: Order of Mind's Fire|Automatic combustion of fire spell targets.  Double damage vs Monmocht Morchti.
 |Shield Stun|Shield Skill|Stun on Hit (opponent can resist)|
-|Damage Resist|Physique Attribute||1-Handed Swords|Physique|6|6|6|0||
+|Damage Resist|Physique Attribute|
 |Break Stun|Physique Attribute|
 |Longsword Mastery|1-H Swords|
 |Impale|1-H Swords|

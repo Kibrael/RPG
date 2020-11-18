@@ -1,4 +1,6 @@
 ## [Overview](https://github.com/Kibrael/RPG/blob/master/python/overview.md)
+
+
 ### Skills
 As characters advance in skill ranks they acquire boons and modifiers to dice rolls.  
 Boons acquired through skill development are known and can be used if the character can play boons.  
@@ -26,6 +28,18 @@ Options:
 - Every non-roll related rank gives a boon.
 
 Skills relate to either the mental or physical aspect of an attribute depending on how it is being used, final decision is with the game master.
+
+### Using Skills
+progress ticks: a measure of completion of an activity. a progress tick is equivalent to 1 combat round of work.
+- Note: skills that normally require significant time or attention, such as research, ritual magic, mechanics, welding, etc are used in `emergency` status during combat
+
+
+### Emergency Status Effect on Skills
+less power
+rushed
+temporary
+likely to break
+"just enough to work"
 
 **Skill Specializations:**  
 Represented through the boons chosen. A boon can be chosen for a subskill such as `spotting` within `stalking`.

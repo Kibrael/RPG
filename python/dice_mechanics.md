@@ -23,3 +23,7 @@ Options for attribute determination:
 - Roll some pool of dice and relate it back to the 1-5 attribute rank
 - Point buy with different points for different power levels
 - 
+
+### The Effects of a Tie
+Tieng on a test that is actively opposed (at least two individuals are rolling dice) creates a special effect
+- like on the 2nd edition dm screen

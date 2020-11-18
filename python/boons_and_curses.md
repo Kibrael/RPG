@@ -65,6 +65,7 @@ debts
 **Acquiring Curses**
 Curses are bestowed for a low attribute score, using an untrained skill, interaction with powerful forces, received as part of a story.
 
+Note: boons that only have bonuses at higher tiers IE no tier 1/2 effects, first effect is on tier 3
 
 ### Boon Lists
 
@@ -80,7 +81,8 @@ boons to defend against attacks (especially boon or status attacks)
 - model after fantasy wizard duels
 - use same approach for magic
 
-### Attribute Boons### Attribute Boons and Curses
+
+### Attribute Boons and Curses
 
 **Physique**
 |Name|Tier|Effect|
@@ -89,12 +91,16 @@ boons to defend against attacks (especially boon or status attacks)
 |Lightning Step|1|Win a speed test (it must have been possible to win on a roll)|
 
 Extra Actions: 0/1/2/2/3
-Extra Distance:
+Extra Distance: move up to twice normal distance once
 Strength Surge: 1/2/3/4/5 (at +1 per tier)
 Bonus Physical Resist: 1/2/3/4/5 (at +1 per tier)
+Feral Stamina: 1) reduce a hit by 2 wounds, 2) +4 to resist environmental status, 3) Necessitiy's endurance: spend boon to gain rested status, 4) 
+Undying: lethal wounds instead leave you with 1 remaining wound. Tier 2.
+
 
 **Mental**
 Bonus Mental Resist: 1/2/3/4/5 (at +1 per tier)
+Preternatural Calm: 1) +4 to resist a fear or rage effect, 3) negate a rage or fear effect for yourself for the scene, 5) negate a rage or fear effect for your group for the scene
 
 **Social**
 Fear effect
@@ -105,7 +111,14 @@ consume self to power Seidr: convert wounds to Seidr for next spell : 1/2/3/4/5 
 
 **Wyrd**
 Reuse: use this boon to return one or more spent boons to your combat hand or deck 1/1/2/2/3
+Luck of the Unprepared: use to choose boon(s) from your unspent boons not in your current hand 1/2/3/4/5, your maximum hand size is unchanged.
+Flash Respite: recover boons to your boon pool (not usable in combat) 1/2/3/4/5
+Second Chances: immediately reroll a failed test
 
+**Alacrity**
+Reroll Alacrity
+Alacrity Bonus
+Alacrity special: keep all dice? something fast
 
 **Monmocht Mortchti**
 
@@ -118,24 +131,105 @@ Skill Mastery: 1/2/3/4/5 (at +1 per tier) general increase in ability with skill
 	- Shield
 	- Craft 
 	- Spell 
+	- Unarmored: evade bonus
 	- Armor: wound resist bonus 
 	- Armor: status resist 
 	- Seidr school: 
 	- Material Mastery (IE Metal, wood, leather)
 
-Skill Specialization: additional maneuvers, bonuses, enchantments, options available (IE 1h swords riposte, hammer weapon sunder, craft quality tiers, )
+Skill Specialization (including spell skills): additional maneuvers, bonuses, enchantments, options available (IE 1h swords riposte, hammer weapon sunder, craft quality tiers, )
 	- Weapon
 	- Craft
+	- Daggers and Knives: +2 wounds / snap throw / bleed status / +4 wounds / cripple
+	- Athletics: With Grace: pass an athletics test that is not actively opposed, the roll must have been possible
+	- automatic success with a skill that is not an opposed test (roll must be possible to make by the character)
 	- Shield: AOE cover, push opponent, shield wall, 
 	- Armor: passive wound mitigation (IE auto resist x wounds)
-	- Armor: status resistance, bonus to resist statuses
+	- Armor: status application resistance, bonus to resist ongoing status effects
+	- Bastion Armor: reduce incoming wounds 1/2/3/4/5
+	- Deflective Armor: bonus to wound resistance test 2/4/6/8/10 or less for all?
 	- Medicine: cure status, boost resist (wound or status), prevent wound, remove wound (combo with other treatments IE herbalism for extra bonus)
-	- stalking: disappear from sight
+	- stalking: Hunter's Sense: move up one place in Alacrity order (play before skipped turn begins), disappear: on succeeding a stalking test and cover is available, gain the hidden status even if watched.
 	- drain resistance, increased success chance with chosen spell, more difficult to resist, alterations to spell (appearance, effect), range, duration, 
 	- Materials Specialization (IE Metal, wood, leather)
-Deadly (weapon): additional wound(s) on hits with chosen weapon 1/2/3/4/5
-Ritual fortification: tougher to resist
-Wundermachen fortification: tougher to break
-flash read auras (spell boon): get general information on the status and disposition and corruption of nearby creatures
+	- Survival: fire building:  combo with archery: fire arrows
+	- Archery: Consuming Blaze: inanimate objects ignite when struct by your fire arrows, resist tests are harder per tier 1/2/3/4/5, bonus powers when comboed with survival firebuilding
+	- Ritual: fortification: tougher to resist
+	- Deadly (weapon): additional wound(s) on hits with chosen weapon 1/2/3/4/5
+	- Wundermachen fortification: tougher to break
+	- flash read:  (spell boon): get general information on the status and disposition and corruption of nearby creatures
+	- Knowledge Local: who would know this? get name, background, and likely location of person who can best answer a question
+	- Leadership: Destiny's Inspiration: increase party's Inevitible score
+- Snap Defense: get a defense roll when you normally wouldn't
+- Evade
+- Speed
+
+#### delete skills section after reference done
+
+### Physique
+- Athletics
+- Craft: Armor, Hand Weapons, Firearms, Bows
+- Flight: unpowered, small craft, large craft
+- Riding: land animals
+- Salvage
+- Stalking
+- Survival
+- Welding
+
+Weapons:
+- Archery
+    - Crossbows
+    - Longbows
+    - Recurves
+- Armor: flexible
+- Armor: rigid
+- Axes 1h
+- Axes 2h
+- Daggers and Knives
+- Firearms
+- Maces 1h
+- Maces 2h
+- Polearms
+- Swords 1h
+- Swords 2h
+- Swords 4h
+- Thrown Weapons
+
+### Mental
+- Architecture
+- Craft: herbs
+- Engineering
+- Hydraulics
+- Knowledge: history, folklore, ritual, mythology and legend, lost arts 
+- 
+- Medicine
+- Metallurgy
+- Mechanics
+- Navigation
+- 
+
+
+### Social
+- Animal Use: riding, battle
+- Animal Care: breeding, handling, feeding, vet stuff
+- Deception
+- Entertain
+- Leadership
+- Mingle
+- Social Engineering
+- Trade
+- 
+
+### Seidr
+- Alchemy
+- Augury
+- Divination
+- Dreamscapes
+- Elemental: Fire, Water, Earth, Air 
+- Hexes
+- Ritual
+- Shadows
+- Wards
+
 
 ### Monmocht Morcthi Boons

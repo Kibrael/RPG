@@ -25,7 +25,36 @@ Incapacitated characters cannot attack, defend, use skills, or magic. They are c
 - Wound
 - Wound Test
 - Status Test
+- Inevitible
+- Critical Hit: on a natural roll of 16 (this might be too easy at times) a boon can be spent and immediately returned to the combat hand, or a boon can be returned to the combat hand and spent immediately.
 
+### Combat Round Sequence
+- Determine action order (players and non-players)
+	- Roll Alacrity: highest goes first
+- Play swift boons in action order. Can modify Alacrity order to reposition players and NPCs.
+- Take turns in sequence playing boon sequences (current player has priority, other players can play initial boons as reaction to the current player's non boon actions) and resolving single round tests as they occur (combat, skill, magic, wound, status, etc)
+	- Boon Sequence
+	- Current player's action, one of:
+		- Attack
+		- Attack
+		- Attack
+		- Defend: Evade (Spell, Unarmed)
+		- Defend: Block (Weapon, Spell, Shield)
+		- Defend: Parry (Weapon, spell, shield)
+		- Move (in combat awareness) or Run (recklessly)
+		- Skill Use: Social- Short dialogue, Knowledge- Moderate question, Athletics- Jump down 10 feet and roll 10, Ritual- 1 tick progress, Mechanics- 1 tick progress (any in combat rolls are considered emergency)
+		- Seidr
+	- Resolve action tests, triggered effects, and reactions
+	- Boon Sequence
+
+- Resolve any tests or situations with "each round", "every round" or similar wording
+- Decrement remaining time on effects and statuses
+- Resolve any other stuff
+
+### Boon Use in Combat
+After the Alacrity roll and before the first PC or NPC's action, boons with the `swift` tag can be played. These boons can modify the Alacrity order, for example: Bill is in third place with a 9, he uses `Foresight` to reroll his Alacrity raising his score to a 12. Bill now has the highest Alacrity roll and acts first.
+
+During a player's turn they may declare to use a boon 
 
 ### Combat Round Options:
 
@@ -38,7 +67,7 @@ Move your distance
 - Reposition at less than your distance with a tactics skill check to gain dominance 
 - 
 
-**Positioning:**
+**Positioning and Inevitibility:**
 - Create system of dominance tiers
 - one score for each side
 - increases influence on tests and outcome of tests when positive
@@ -78,9 +107,18 @@ Armor mitigates damage received. This mitigation is a passive effect and require
 
 *Note: See active armor use for non-passive armor benefits.*
 
+**Armor Vs Damage Type Modifiers**
+Pierce
+Hack
+Crush
 
 **Armor Types**
-**Armor Type List**
+Leather
+Metal
+
+**Armor Value**
+Sum of Damage Type Modifiers
+Used to determine encumberance, bulk, weight of armor
 **Armor Statuses**
 **Armor Status Modifiers**
 **Effects on Mobility**

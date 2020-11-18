@@ -64,7 +64,17 @@ If players are rolling for stats, the highest player's attribute total is used f
 - IE 
 
 
+**Inevitible: attribute**
+Starts at 5. At character creation, and sometimes in game, players may spend Inevitable to roll on one of the Inevitibility tables.
+- Each point spent unlocks different tables, scaling up in impact and specialty
+Inevitible may be gained through story work, but is not healable like other attributes.
+Inevitable may be spent once per scene to raise the groups Inevitible score.
 
+**Inevitible: group attribute**
+used to measure the narrative force of groups. Usually, both groups would have a 0. 
+This is modified based on situational context. For example, treasure seekers burst into a god's armory while he is girded for war. 
+The treasure seekers may have a 0 or lower Inevitable group attribute while the god's may be as high as 5. 
+The Inevitible score modifies the maximum boon tier available, adjust other attributes on their tables,  
 
 ### Attribute Table: Dice Pools and Boons
 
