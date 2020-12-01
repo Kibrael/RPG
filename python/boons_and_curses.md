@@ -65,9 +65,18 @@ debts
 **Acquiring Curses**
 Curses are bestowed for a low attribute score, using an untrained skill, interaction with powerful forces, received as part of a story.
 
-Note: boons that only have bonuses at higher tiers IE no tier 1/2 effects, first effect is on tier 3
+Note: some boons only have bonuses at higher tiers IE no tier 1/2 effects, first effect is on tier 3
+
+**Boons from Magic Items**
+Some magical items grant additional boons. Each boon granted by a magic item in use by a character adds one to the character's total boon pool.
+Combat boons extend the combat hand. IE if a sword gives 2 1-H edge boons and a character's boon hand size is 5, the character now has a 7 card boon hand.
+Non-combat boons cannot be used to power combat maneuvers. IE the skill bonus for a ring of climbing cannot be spent to apply a bleed status.
+Some items have both types of boons. The non-combat restriction still applies.
+
 
 ### Boon Lists
+
+
 
 ### General Boons
 change damage type
@@ -87,7 +96,7 @@ boons to defend against attacks (especially boon or status attacks)
 **Physique**
 |Name|Tier|Effect|
 |----|----|------|
-|Like a Stone|1|Toll physique dice to reduce damage once|
+|Like a Stone|1|Roll physique dice to reduce damage once|
 |Lightning Step|1|Win a speed test (it must have been possible to win on a roll)|
 
 Extra Actions: 0/1/2/2/3
@@ -124,72 +133,66 @@ Alacrity special: keep all dice? something fast
 
 ### Skill Boons (include spell boons)
 
-
-Skill Mastery: 1/2/3/4/5 (at +1 per tier) general increase in ability with skill
-	- Melee Weapon Mastery: 1/2/3/4/5 (at +1 per tier)
-	- Ranged Weapon Mastery: 1/2/3/4/5 (at +1 per tier)
-	- Shield
-	- Craft 
-	- Spell 
-	- Unarmored: evade bonus
-	- Armor: wound resist bonus 
-	- Armor: status resist 
-	- Seidr school: 
-	- Material Mastery (IE Metal, wood, leather)
-
-Skill Specialization (including spell skills): additional maneuvers, bonuses, enchantments, options available (IE 1h swords riposte, hammer weapon sunder, craft quality tiers, )
-	- Weapon
-	- Craft
-	- Daggers and Knives: +2 wounds / snap throw / bleed status / +4 wounds / cripple
-	- Athletics: With Grace: pass an athletics test that is not actively opposed, the roll must have been possible
-	- automatic success with a skill that is not an opposed test (roll must be possible to make by the character)
-	- Shield: AOE cover, push opponent, shield wall, 
-	- Armor: passive wound mitigation (IE auto resist x wounds)
-	- Armor: status application resistance, bonus to resist ongoing status effects
-	- Bastion Armor: reduce incoming wounds 1/2/3/4/5
-	- Deflective Armor: bonus to wound resistance test 2/4/6/8/10 or less for all?
-	- Medicine: cure status, boost resist (wound or status), prevent wound, remove wound (combo with other treatments IE herbalism for extra bonus)
-	- stalking: Hunter's Sense: move up one place in Alacrity order (play before skipped turn begins), disappear: on succeeding a stalking test and cover is available, gain the hidden status even if watched.
-	- drain resistance, increased success chance with chosen spell, more difficult to resist, alterations to spell (appearance, effect), range, duration, 
-	- Materials Specialization (IE Metal, wood, leather)
-	- Survival: fire building:  combo with archery: fire arrows
-	- Archery: Consuming Blaze: inanimate objects ignite when struct by your fire arrows, resist tests are harder per tier 1/2/3/4/5, bonus powers when comboed with survival firebuilding
-	- Ritual: fortification: tougher to resist
-	- Deadly (weapon): additional wound(s) on hits with chosen weapon 1/2/3/4/5
-	- Wundermachen fortification: tougher to break
-	- flash read:  (spell boon): get general information on the status and disposition and corruption of nearby creatures
-	- Knowledge Local: who would know this? get name, background, and likely location of person who can best answer a question
-	- Leadership: Destiny's Inspiration: increase party's Inevitible score
+### General Boons
 - Snap Defense: get a defense roll when you normally wouldn't
-- Evade
-- Speed
+- I am the Weapon: change the damage type of a weapon for a single attack
 
-#### delete skills section after reference done
+### Skill Related Boons
+- automatic success with a skill that is not an opposed test (roll must be possible to make by the character)
+
+Skill Mastery: 1/2/3/4/5 (at +1 per tier) general increase in ability with skill, choose one skill. This boon applies a constant effect. Spending the boon card does not create additional bonus.
+Flash of Inspiration: 1) +3 to a single test, 2), 3) + 6 to a single test, 4), 5) +9 to a single test 
+Skill Specialization: Choose one skill. 1) Succeed an unopposed test, it must have been possible, 2) +1 to tests for the scene, 3) roll 1 step better dice pool for this skill for the scene, 4) +3 to tests for the scene, 5) Exchange this boon for a different boon, that you have, for the same skill. 
+Hacking Weapons: status amplifiers, wound multipliers, extra attacks and combat options
+Crushing Weapons: status amplifiers, wound multipliers, extra attacks and combat options
+Piercing Weapons: status amplifiers, wound multipliers, extra attacks and combat options
+Shields: status resists, wound resist, status resist, change weapon vs armor modifier, cover (AOE, arrows, line of sight)
+Crafting: quality tier increases? boon system to create masterwork and magical items
+
+additional maneuvers, bonuses, enchantments, options available (IE 1h swords riposte, hammer weapon sunder, craft quality tiers, )
+
+- Unarmored: evade bonus
+- Armor: wound resist bonus 
+- Armor: status resist 
+- Seidr school: 
+- Material Mastery (IE Metal, wood, leather)
+
 
 ### Physique
 - Athletics
+	- Athletics: With Grace: pass an athletics test that is not actively opposed, the roll must have been possible
+
 - Craft: Armor, Hand Weapons, Firearms, Bows
+	- Materials Specialization (IE Metal, wood, leather)
 - Flight: unpowered, small craft, large craft
 - Riding: land animals
 - Salvage
 - Stalking
+	- stalking: Hunter's Sense: move up one place in Alacrity order (play before skipped turn begins), disappear: on succeeding a stalking test and cover is available, gain the hidden status even if watched.
 - Survival
+	- Survival: fire building:  combo with archery: fire arrows
 - Welding
 
 Weapons:
+	- Deadly (weapon): additional wound(s) on hits with chosen weapon 1/2/3/4/5
 - Archery
-    - Crossbows
-    - Longbows
-    - Recurves
-- Armor: flexible
-- Armor: rigid
+	- Archery: Consuming Blaze: inanimate objects ignite when struct by your fire arrows, resist tests are harder per tier 1/2/3/4/5, bonus powers when comboed with survival firebuilding
+	- Ambush Shot: 1) +3 wounds, -3 to resist status effect, 2) Two status effects on an attack, 3) Can choose `Cripple` status tier 3: -3 to Alacrity, 4) bleed severity increased by 2, 5) Second Shot 
+- Armor: by AV range
+	- Armor: passive wound mitigation (IE auto resist x wounds)
+	- Armor: status application resistance, bonus to resist ongoing status effects
+	- Bastion Armor: reduce incoming wounds 1/2/3/4/5
+	- Deflective Armor: bonus to wound resistance test 2/4/6/8/10 or less for all?
 - Axes 1h
 - Axes 2h
 - Daggers and Knives
+	- Daggers and Knives: +2 wounds / snap throw / bleed status / +4 wounds / cripple
 - Firearms
 - Maces 1h
 - Maces 2h
 - Polearms
+- Shield
+	- Shield: AOE cover, push opponent, shield wall, 
 - Swords 1h
 - Swords 2h
 - Swords 4h
@@ -201,26 +204,36 @@ Weapons:
 - Engineering
 - Hydraulics
 - Knowledge: history, folklore, ritual, mythology and legend, lost arts 
-- 
+ 	- Knowledge Local: who would know this? get name, background, and likely location of person who can best answer a question
+
 - Medicine
+	- Medicine: cure status, boost resist (wound or status), prevent wound, remove wound (combo with other treatments IE herbalism for extra bonus)
 - Metallurgy
-- Mechanics
+- Mechanics:
+	- Rapid Repair
 - Navigation
-- 
+- Ritual
+	- Ritual: fortification: tougher to resist
 
 
 ### Social
 - Animal Use: riding, battle
 - Animal Care: breeding, handling, feeding, vet stuff
+	- Command the Domesticated: 1) Succeed on animal training or command on a group of domestic animals <= Social Attribute, 2) Disarmed Wild: gain trust of wild animal through action
 - Deception
 - Entertain
 - Leadership
+	- Leadership: Destiny's Inspiration: increase party's Inevitible score
 - Mingle
 - Social Engineering
 - Trade
 - 
 
 ### Seidr
+- Wundermachen fortification: tougher to break
+- flash read:  (spell boon): get general information on the status and disposition and corruption of nearby creatures
+- drain resistance, increased success chance with chosen spell, more difficult to resist, alterations to spell (appearance, effect), range, duration, 
+
 - Alchemy
 - Augury
 - Divination

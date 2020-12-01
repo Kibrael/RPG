@@ -99,6 +99,7 @@ Theme: in power tiers 1-5 relating to boon/curse powers, these actions should af
 - Extra Wound(s) need to set a max of wounds that can be stacked?
 - Apply Status (requires something like skill unlock with weapon)
 
+**Attack, Wound, Status, Resist Sequences**
 
 maneuvers to change position score (influence?)
 

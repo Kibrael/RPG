@@ -78,6 +78,8 @@ The Inevitible score modifies the maximum boon tier available, increases player 
 - increases to attributes from Inevitible do not grant new boons but do temporarily unlock new tiers of existing boons
 - If Wyrd increases, boon hand increases as well. Draw new cards to adjust for the increase in boon hand size. IE 1 Inevitible: Group adds 1 to Wyrd and 1 to boon hand size.   
 
+### Spending Inevitable Points
+
 ### Attribute Table: Dice Pools and Boons
 
 |Rank|Attribute Effect|Boon or Curse|Boon/Curse Tier Unlocked|
